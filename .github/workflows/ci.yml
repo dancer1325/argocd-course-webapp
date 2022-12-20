@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "building and testing the app ..."
+  # Action to push to the docker registry the image
   docker-build-push:
     runs-on: ubuntu-latest
     needs: build-test

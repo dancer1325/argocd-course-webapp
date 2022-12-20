@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       - main
-
+# All the steps in the PR
 jobs:
   build-test:
     runs-on: ubuntu-latest
