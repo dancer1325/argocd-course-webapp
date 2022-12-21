@@ -5,6 +5,7 @@
 replicaCount: 1
 
 image:
+  # DockerHub repository URL, in which lives the image
   repository: mabusaa/argocd-course-webapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
